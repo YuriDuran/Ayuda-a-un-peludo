@@ -1,0 +1,33 @@
+img{
+    border-radius: 10px;
+    float:left;
+}
+
+#margen{
+    margin-left: 20px;
+}
+.parrafo{
+    font-family: 'Cairo', sans-serif;
+    line-height: 1.7;
+    margin-left: 200px;
+    
+}
+
+.pe{
+    text-align: justify;
+}
+.titulo2{
+    font-family: 'Sansita Swashed', cursive;
+}
+.link{
+    text-align: center;
+}
+div {
+    background-color: lightblue;
+  }
+
+.titulo{
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 2px 5px red;
+
+}
