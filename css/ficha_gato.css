@@ -1,0 +1,18 @@
+img {
+    border-radius: 8px;
+  }
+
+div {
+    padding: 5px;
+    vertical-align: middle;
+  }
+
+.img2 {
+    float: left;
+  }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
