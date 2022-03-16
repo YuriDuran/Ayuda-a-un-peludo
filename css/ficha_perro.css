@@ -1,0 +1,10 @@
+img {
+    border-radius: 10px;
+  }
+
+.claerfix::after{
+    content: "";
+    clear: both;
+    display: table;
+    float: left;
+}
