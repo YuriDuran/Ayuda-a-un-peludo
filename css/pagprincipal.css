@@ -1,33 +1,219 @@
-img{
-    border-radius: 10px;
-    float:left;
+/*imagenes*/
+
+
+
+.img{
+    float: right;
+    width: 300px;
+    height: 300px;
+    margin-right: 200px;
+    margin-top: 50px;
 }
 
+.img2{
+    float: right;
+    width: 250px;
+    height: 350px;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+
+.imgperro{
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-left: 300px;
+    margin-bottom: 100px;
+}
+
+.imggato{
+    float: left;
+    width: 250px;
+    height: 350px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+/*IMAGEN CON ANIMACION*/
+.contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor figure{
+    position: relative;
+    height: 450px;
+    width: 550px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(red, green, blue, alpha);
+    cursor: pointer;
+}
+.contenedor figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-in-out;
+}
+.contenedor figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(11, 103, 123, 0.6);
+    transition: all 500ms ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.contenedor figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor figure:hover > .capa h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.contenedor figure:hover > img{
+    transform: scale(1.3);
+}
+.contenedor figure .capa h3{
+    color:#fff;
+    font-family: 'Acme', sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: 120px;
+    transition: all 500ms ease-in-out;
+}
+.contenedor figure .capa a{
+    color: #fff;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 30px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 120px;
+    margin: auto;
+}
+
+
+
+
+/*ANIMACIONES*/
+
+
+
+#nose{
+    animation-name: animacion;
+    animation-duration: 1s;
+    animation-direction: reverse;
+}
+
+
+@keyframes animacion{
+    0% {top: 0; bottom: 0;}
+    50% {top: 50px; bottom: 50px;}
+    100% {top: 0px; bottom: 0px;}
+}
+
+
+/*MARGEN*/
 #margen{
     margin-left: 20px;
+
+
 }
-.parrafo{
-    font-family: 'Cairo', sans-serif;
-    line-height: 1.7;
-    margin-left: 200px;
-    
+.margengato{
+    margin-top: -200px;
+}
+.margenperro{
+    margin-top: -400px;
 }
 
-.pe{
-    text-align: justify;
+.margensecciones{
+    margin-top: 250px;
+    margin-bottom: 50px;
 }
-.titulo2{
+
+/*PRIMER PARRAFO*/
+.parrafo{
+    border-radius: 10px;
+    background: rgb(201, 193, 193) ;
+    line-height: 2;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 620px;
+    height: 360px;
+    position: relative;
+    text-align: center;
+}
+
+.parrafo p{
+    font-size: 25px;
     font-family: 'Sansita Swashed', cursive;
+    display: table-cell;
+    position: absolute;
+    top: 0.5%;
+    right: 5%;
+    left: 5%;
+    bottom: 1%;
+    vertical-align: middle;
 }
+
+/*INTEGRANTES*/
+.integrantes{
+    border-radius: 10px;
+    background: rgb(184, 233, 210) ;
+    line-height: 2;
+    margin-left: 1150px;
+    margin-top: 100px;
+    width: 420px;
+    height: 220px;
+    position: relative;
+    text-align: center;
+}
+
+.integrantes p{
+    font-size: 25px;
+    font-family: 'Sansita Swashed', cursive;
+    display: table-cell;
+    position: absolute;
+    top: 0.5%;
+    right: 5%;
+    left: 5%;
+    bottom: 1%;
+    vertical-align: middle;
+}
+
+
+
+/*TITULOS*/
+
 .link{
     text-align: center;
 }
-div {
-    background-color: lightblue;
-  }
+
 
 .titulo{
+    color: rgb(85, 62, 13);
     font-family: 'Dancing Script', cursive;
-    text-shadow: 2px 2px 5px red;
-
+    text-shadow: 2px 2px 5px rgb(124, 97, 46);
+    text-align: center;
+    font-size: 50px;
 }
+
+.secciones{
+    font-family: 'Sora', sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 2px 5px rgb(233, 176, 176);
+    text-align: center;
+}
+.titintegrantes{
+    font-family: 'Sora', sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 2px 5px rgb(74, 113, 158);
+    text-align: right;
+    margin-right: 320px;
+}
+    
