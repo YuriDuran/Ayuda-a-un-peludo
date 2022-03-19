@@ -1,10 +1,144 @@
-img {
+/*Titulos*/
+
+.titulo{
+  color: rgb(85, 62, 13);
+  font-family: 'Gill Sans MT', Calibri;
+  text-shadow: 2px 2px 5px rgb(124, 97, 46);
+
+  font-size: 50px;
+  margin-left: 680px;
+}
+
+.subtitulo{
+  color: rgb(85, 62, 13);
+  font-size: 60px;
+  font-family: 'Gill Sans MT', Calibri;
+  margin-left: 430px;
+  margin-top: 300px;
+}
+
+/*Parrafos*/
+
+.parrafo{
+  border-radius: 10px;
+  background: rgb(255, 255, 255) ;
+  float: left;
+  line-height: 2;
+  margin-left: 125px;
+  margin-top: 50px;
+  position: relative;
+  text-align: center;
+}
+
+.parrafo p{
+    font-size: 20px;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.parrafoimg1{
+  border-radius: 10px;
+  background: rgb(255, 255, 255) ;
+  line-height: 2;
+  margin-top: 600px;
+  margin-left: 250px;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+}
+.parrafoimg1 p{
+  font-size: 20px;
+  font-family: 'Sansita Swashed', cursive;
+}
+.parrafoimg2{
+  border-radius: 10px;
+  background: rgb(255, 255, 255) ;
+  line-height: 2;
+  margin-top: -220px;
+  margin-left: 770px;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+}
+.parrafoimg2 p{
+  font-size: 20px;
+  font-family: 'Sansita Swashed', cursive;
+}
+
+.parrafoimg3{
+  border-radius: 10px;
+  background: rgb(255, 255, 255) ;
+  line-height: 2;
+  margin-top: -220px;
+  margin-left: 1300px;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+}
+.parrafoimg3 p{
+  font-size: 20px;
+  font-family: 'Sansita Swashed', cursive;
+}
+
+
+
+
+
+
+
+/*Imagenes*/
+
+.img {
     border-radius: 10px;
+    float: left;
+    width: 400px;
+    height: 400px;
+    margin-left: 200px;
+    margin-top: 100px;
   }
 
-.claerfix::after{
-    content: "";
-    clear: both;
-    display: table;
+.img2 {
+    border-radius: 10px;
     float: left;
+    width: 450px;
+    height: 400px;
+    margin-left: 700px;
+    margin-top: -640px;
+}
+
+.img3 {
+  border-radius: 10px;
+  float: left;
+  width: 400px;
+  height: 400px;
+  margin-left: 1250px;
+  margin-top: -640px;
+}
+
+.img4{
+  border-radius: 10px;
+  float: left;
+  width: 400px;
+  height: 400px;
+  margin-left: 100px;
+  margin-top: 200px;
+}
+
+.img5{
+  border-radius: 10px;
+  float: left;
+  width: 400px;
+  height: 400px;
+  margin-left: 100px;
+  margin-top: 200px;
+
+}
+
+.img6{
+  border-radius: 10px;
+  float: left;
+  width: 400px;
+  height: 400px;
+  margin-left: 100px;
+  margin-top: 200px;
+
 }
