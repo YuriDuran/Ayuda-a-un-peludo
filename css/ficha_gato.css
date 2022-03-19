@@ -1,14 +1,24 @@
+body {
+  background-color: lightpink;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
 img {
     border-radius: 8px;
   }
 
-div {
-    padding: 5px;
-    vertical-align: middle;
-  }
-
 .img2 {
     float: left;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-left: 20px;
   }
 
 .clearfix::after {
@@ -16,3 +26,8 @@ div {
     clear: both;
     display: table;
   }
+
+a {
+  text-decoration: none;
+  color: black;
+}
