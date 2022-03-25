@@ -7,40 +7,32 @@
 /*imagenes*/
 
 
-.icon{
-    float:left;
-    margin-left: 100px;
-}
-.img{
-    float: right;
-    width: 300px;
-    height: 300px;
-    margin-right: 200px;
-    margin-top: 50px;
+.pata{
+    margin-right: 14%;
 }
 
-.img2{
-    float: right;
-    width: 250px;
-    height: 350px;
-    margin-top: 50px;
-    margin-right: 200px;
+.icon{
+    margin-left: 30%;
+
+
 }
+#iconn{
+    width: 150px;
+    height: 150px;
+}
+
 
 .imgperro{
-    float: left;
-    width: 300px;
-    height: 300px;
-    margin-left: 300px;
-    margin-bottom: 100px;
+    margin-left: 30%;
+    width: 100%;
+
 }
 
 .imggato{
-    float: left;
-    width: 250px;
-    height: 350px;
-    margin-left: 100px;
-    margin-bottom: 100px;
+    margin-left: 30%;
+    width: 100%;;
+
+
 }
 
 /*IMAGEN CON ANIMACION*/
@@ -51,6 +43,7 @@
     justify-content: left;
     align-items: center;
     height: 100vh;
+
 }
 
 .contenedor figure{
@@ -175,49 +168,19 @@
 
 
 
-#nose{
-    animation-name: animacion;
-    animation-duration: 1s;
-    animation-direction: reverse;
-}
 
 
-@keyframes animacion{
-    0% {top: 0; bottom: 0;}
-    50% {top: 50px; bottom: 50px;}
-    100% {top: 0px; bottom: 0px;}
-}
 
 
-/*MARGEN*/
-#margen{
-    margin-left: 20px;
-
-
-}
-.margengato{
-    margin-top: -200px;
-    margin-left: 250px;
-}
-.margenperro{
-    margin-top: -2200px;
-    margin-right: 250px;
-}
-
-.margensecciones{
-    margin-top: 250px;
-    margin-bottom: 50px;
-}
 
 /*PRIMER PARRAFO*/
 .parrafo{
     border-radius: 10px;
     background: rgb(201, 193, 193) ;
     line-height: 2;
-    margin-left: 100px;
-    margin-top: 100px;
-    width: 620px;
-    height: 360px;
+    
+    width: 90%;
+    height: 100%;
     position: relative;
     text-align: center;
 }
@@ -239,10 +202,9 @@
     border-radius: 10px;
     background: rgb(184, 233, 210) ;
     line-height: 2;
-    margin-left: 1150px;
-    margin-top: 100px;
-    width: 420px;
-    height: 220px;
+    margin-left: 30%;
+    width: 50%;
+    height: 50%;
     position: relative;
     text-align: center;
 }
@@ -274,7 +236,9 @@
     text-shadow: 2px 2px 5px rgb(124, 97, 46);
 
     font-size: 50px;
-    margin-left: 640px;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
 }
 
 .secciones{
@@ -285,10 +249,11 @@
 }
 .titintegrantes{
     font-family: 'Sora', sans-serif;
+    color: aliceblue;
     font-size: 40px;
-    text-shadow: 2px 2px 5px rgb(74, 113, 158);
-    text-align: right;
-    margin-right: 320px;
+    text-shadow: 2px 2px 5px rgb(171, 198, 230);
+    text-align: center;
+    margin: 4%;
 }
 
 /* pie de pagina */
