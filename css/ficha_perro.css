@@ -20,7 +20,7 @@
 /*Parrafos*/
 
 .parrafo{
-  background: rgb(255, 255, 255) ;
+  background: #F6CA45 ;
   line-height: 2;
   margin-top: 50px;
   width: 100%;
@@ -30,152 +30,85 @@
 }
 
 .parrafo p{
-    font-size: 20px;
-    font-family: 'Sansita Swashed', cursive;
-}
-
-.parrafoimg1{
-  border-radius: 10px;
-  background: rgb(255, 255, 255) ;
-  line-height: 2;
-  margin-top: 600px;
-  margin-left: -60px;
-  width: 100%;
-  height: 25%;
-  position: relative;
-  text-align: center;
-}
-.parrafoimg1 p{
-  font-size: 20px;
-  font-family: 'Sansita Swashed', cursive;
-}
-.parrafoimg2{
-  border-radius: 10px;
-  background: rgb(255, 255, 255) ;
-  line-height: 2;
-  margin-top: 600px;
-  margin-left: -140px;
-  width: 100%;
-  height: 25%;
-  position: relative;
-  text-align: center;
-}
-.parrafoimg2 p{
   font-size: 20px;
   font-family: 'Sansita Swashed', cursive;
 }
 
-.parrafoimg3{
-  border-radius: 10px;
-  background: rgb(255, 255, 255) ;
-  line-height: 2;
-  margin-top: 600px;
-  margin-left: -180px;
-  width: 100%;
-  height: 25%;
+/*Animaciones e imagen*/
+body {
+  padding: 20px;
+  font-family: sans-serif;
+  background: #f2f2f2;
+}
+img {
+  width: 100%; 
+  height: 500px;
+
+}
+h2 {
+  margin-bottom: .5em;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-gap: 1em;
+}
+
+
+/* estilos hover */
+.location-listing {
   position: relative;
-  text-align: center;
-}
-.parrafoimg3 p{
-  font-size: 20px;
-  font-family: 'Sansita Swashed', cursive;
 }
 
-.parrafoimg4{
-  border-radius: 10px;
-  background: rgb(255, 255, 255) ;
-  line-height: 2;
-  margin-top: 500px;
-  margin-left: -60px;
+.location-image {
+  line-height: 0;
+  overflow: hidden;
+  border-radius: 10%;
+}
+
+.location-image img {
+  filter: blur(0px);
+  transition: filter 0.3s ease-in;
+  transform: scale(1.1);
+}
+
+.location-title {
+  border-radius: 10%;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
   width: 100%;
-  height: 25%;
-  position: relative;
-  text-align: center;
-}
-.parrafoimg4 p{
-  font-size: 20px;
-  font-family: 'Sansita Swashed', cursive;
-}
-
-.parrafoimg5{
-  border-radius: 10px;
-  background: rgb(255, 255, 255) ;
-  line-height: 2;
-  margin-top: 500px;
-  margin-left: -140px;
-  width: 100%;
-  height: 25%;
-  position: relative;
-  text-align: center;
-}
-.parrafoimg5 p{
-  font-size: 20px;
-  font-family: 'Sansita Swashed', cursive;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .5s;
+  background: rgba(0, 90, 60, 0.4);
+  color: rgb(1, 17, 16);
+  
+  /* posicion del texto */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.parrafoimg6{
-  border-radius: 10px;
-  background: rgb(255, 255, 255) ;
-  line-height: 2;
-  margin-top: 500px;
-  margin-left: -180px;
-  width: 100%;
-  height: 25%;
-  position: relative;
-  text-align: center;
-}
-.parrafoimg6 p{
-  font-size: 20px;
-  font-family: 'Sansita Swashed', cursive;
+.location-listing:hover .location-title {
+  opacity: 1;
 }
 
-/*Imagenes*/
+.location-listing:hover .location-image img {
+  filter: blur(2px);
+}
 
-.img {
-    border-radius: 10px;
-    width: 150%;
-    height: 50%;
-    margin-left: 200px;
-    margin-top: 147px;
+
+/* for touch screen devices */
+@media (hover: none) { 
+  .location-title {
+    opacity: 1;
   }
-
-.img2 {
-    border-radius: 10px;
-    width: 150%;
-    height: 50%;
-    margin-left: 100px;
-    margin-top: 147px;
-}
-
-.img3 {
-  border-radius: 10px;
-  width: 150%;
-  height: 50%;
-  margin-left: 50px;
-  margin-top: 147px;
-}
-.img4 {
-  border-radius: 10px;
-  width: 150%;
-  height: 50%;
-  margin-left: 200px;
-  margin-top: 50px;
-}
-
-.img5 {
-  border-radius: 10px;
-  width: 150%;
-  height: 50%;
-  margin-left: 100px;
-  margin-top: 50px;
-
-}
-
-.img6 {
-  border-radius: 10px;
-  width: 150%;
-  height: 50%;
-  margin-left: 50px;
-  margin-top: 50px;
-
+  .location-image img {
+    filter: blur(2px);
+  }
 }
