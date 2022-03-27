@@ -95,6 +95,7 @@ h2 {
 
 .location-listing:hover .location-title {
   opacity: 1;
+  color: white;
 }
 
 .location-listing:hover .location-image img {
