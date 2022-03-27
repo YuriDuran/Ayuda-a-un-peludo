@@ -41,9 +41,8 @@ body {
   background: #f2f2f2;
 }
 img {
-  width: 100%; 
+  width: 100%; /* need to overwrite inline dimensions */
   height: 500px;
-
 }
 h2 {
   margin-bottom: .5em;
@@ -55,7 +54,7 @@ h2 {
 }
 
 
-/* estilos hover */
+/* hover styles */
 .location-listing {
   position: relative;
 }
@@ -73,7 +72,6 @@ h2 {
 }
 
 .location-title {
-  border-radius: 10%;
   font-size: 1.5em;
   font-weight: bold;
   text-decoration: none;
@@ -85,10 +83,11 @@ h2 {
   left: 0;
   opacity: 0;
   transition: opacity .5s;
-  background: rgba(0, 90, 60, 0.4);
-  color: rgb(1, 17, 16);
+  background: rgba(246, 202, 69,0.6);
+  color: rgb(0, 0, 0);
+  border-radius: 10%;
   
-  /* posicion del texto */
+  /* position the text in t’ middle*/
   display: flex;
   align-items: center;
   justify-content: center;
