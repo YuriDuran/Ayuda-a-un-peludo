@@ -9,7 +9,7 @@
   text-align: center;
   position: relative;
   float: right;
-  margin-right: 700px;
+  margin-right:600px;
   margin-top: 100px;
 }
 
@@ -57,7 +57,7 @@ h2 {
 }
 
 
-/* hover styles */
+/* Estilo hover */
 .location-listing {
   position: relative;
 }
@@ -66,6 +66,7 @@ h2 {
   line-height: 0;
   overflow: hidden;
   border-radius: 10%;
+  border: #F6CA45 solid;
 }
 
 .location-image img {
@@ -90,7 +91,6 @@ h2 {
   color: rgb(0, 0, 0);
   border-radius: 10%;
   
-  /* position the text in t’ middle*/
   display: flex;
   align-items: center;
   justify-content: center;
@@ -106,7 +106,6 @@ h2 {
 }
 
 
-/* for touch screen devices */
 @media (hover: none) { 
   .location-title {
     opacity: 1;
@@ -188,4 +187,11 @@ h2 {
   height: 150px;
   margin-top: 50px;
   margin-left: 100px;
+}
+
+.inicio{
+  float: right;
+  margin-top: 100px;
+  margin-right: 50px;
+  color: rgba(246, 202, 69,0.6);
 }
