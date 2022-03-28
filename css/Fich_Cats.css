@@ -1,0 +1,82 @@
+
+.icon{
+    margin-left: 30%;
+
+
+}
+#iconn{
+    width: 150px;
+    height: 50px;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+
+
+
+/* pie de pagina */
+
+/*ICONOS*/
+.instagram{
+    text-align: left;
+    margin-left: 15%;
+}
+.instagram svg{
+    background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);;
+    border-radius: 30%;
+    color: white;
+    
+
+} 
+
+.facebook{
+    text-align: left;
+    margin-left: 15%;
+}
+.facebook svg{
+    color: rgb(66 103 178);
+
+    
+}
+
+.colorletra{
+    color:white;
+}
+
+.tuiter{
+    text-align: left;
+    margin-left: 15%;
+}
+.tuiter svg{
+    color: rgb(29 161 242);
+    
+}
+
+.redes{
+    color: white;
+    font-size: 11px;
+    font-family: 'Sora', sans-serif;
+    margin-bottom: 10%
+}
+
+#piemarg{
+    margin-bottom: 10%
+}
+.contacto{
+    color: white;
+    font-size: 13px;
+    font-family: 'Sora', sans-serif;
+    margin-bottom: 10%;
+    margin-right: 100%;
+    
+}
+.tamanoimg{
+    width: 550px;
+    height: 600px;
+    margin-top: 30px;
+    margin-left: 10px;
+}

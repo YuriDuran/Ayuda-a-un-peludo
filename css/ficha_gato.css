@@ -1,12 +1,16 @@
 /*Titulos*/
 
 .titulo{
-  color: rgb(85, 62, 13);
+  color: rgb(0, 0, 0);
   font-family: 'Gill Sans MT', Calibri;
-  text-shadow: 2px 2px 5px rgb(124, 97, 46);
+  text-shadow: 2px 2px 5px rgb(4, 255, 242);
 
   font-size: 50px;
   text-align: center;
+  position: relative;
+  float: right;
+  margin-right: 700px;
+  margin-top: 100px;
 }
 
 .subtitulo{
@@ -36,14 +40,12 @@
 
 /*Animaciones e imagen*/
 body {
-  padding: 20px;
   font-family: sans-serif;
   background: #f2f2f2;
 }
 img {
-  width: 100%; 
+  width: 100%; /* need to overwrite inline dimensions */
   height: 500px;
-
 }
 h2 {
   margin-bottom: .5em;
@@ -55,7 +57,7 @@ h2 {
 }
 
 
-/* estilos hover */
+/* hover styles */
 .location-listing {
   position: relative;
 }
@@ -73,7 +75,6 @@ h2 {
 }
 
 .location-title {
-  border-radius: 10%;
   font-size: 1.5em;
   font-weight: bold;
   text-decoration: none;
@@ -85,10 +86,11 @@ h2 {
   left: 0;
   opacity: 0;
   transition: opacity .5s;
-  background: rgba(0, 90, 60, 0.4);
-  color: rgb(1, 17, 16);
+  background: rgba(246, 202, 69,0.6);
+  color: rgb(0, 0, 0);
+  border-radius: 10%;
   
-  /* posicion del texto */
+  /* position the text in t’ middle*/
   display: flex;
   align-items: center;
   justify-content: center;
@@ -96,15 +98,11 @@ h2 {
 
 .location-listing:hover .location-title {
   opacity: 1;
+  color: white;
 }
 
 .location-listing:hover .location-image img {
   filter: blur(2px);
-}
-
-.centrado {
-  align-items: center;
-  justify-content: center;
 }
 
 
@@ -116,4 +114,78 @@ h2 {
   .location-image img {
     filter: blur(2px);
   }
+}
+
+/* pie de pagina */
+
+/*ICONOS*/
+.instagram{
+  text-align: left;
+  margin-left: 15%;
+}
+.instagram svg{
+  background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);;
+  border-radius: 30%;
+  color: white;
+  
+
+} 
+
+.facebook{
+  text-align: left;
+  margin-left: 15%;
+}
+.facebook svg{
+  color: rgb(66 103 178);
+
+  
+}
+
+.colorletra{
+  color:white;
+}
+
+.tuiter{
+  text-align: left;
+  margin-left: 15%;
+}
+.tuiter svg{
+  color: rgb(29 161 242);
+  
+}
+
+.redes{
+  color: white;
+  font-size: 11px;
+  font-family: 'Sora', sans-serif;
+  margin-bottom: 10%
+}
+
+#piemarg{
+  margin-bottom: 10%
+}
+.contacto{
+  color: white;
+  font-size: 13px;
+  font-family: 'Sora', sans-serif;
+  margin-bottom: 10%;
+  margin-right: 100%;
+  
+}
+
+.icon{
+  margin-left: 30%;
+
+
+}
+#iconn{
+  width: 150px;
+  height: 50px;
+}
+
+.logo{
+  width: 150px;
+  height: 150px;
+  margin-top: 50px;
+  margin-left: 100px;
 }
