@@ -8,9 +8,8 @@
   font-size: 50px;
   text-align: center;
   position: relative;
-  float: right;
-  margin-right:600px;
-  margin-top: 100px;
+  margin-top: 10%;
+
 }
 
 .subtitulo{
@@ -142,6 +141,7 @@ h2 {
 
 .colorletra{
   color:white;
+  margin-top: 10%;
 }
 
 .tuiter{
