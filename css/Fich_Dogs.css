@@ -76,8 +76,9 @@
     
 }
 .tamanoimg{
-    width: 550px;
-    height: 600px;
+    width: 100%;
+    max-width: 550px;
+    /*height: 600px;*/
     margin-top: 30px;
     margin-left: 10px;
 }
