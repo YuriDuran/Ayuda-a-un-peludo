@@ -268,8 +268,8 @@
 
 
 .contenedortitulo {
-    width: 1080px;
-    height: 370px;
+    width: 80%;
+    height: 80%;
     overflow: hidden;
     position: relative;
     margin: 10% auto; 
@@ -292,7 +292,7 @@
     opacity: 0.5;
 }
 .contenedortitulo p{
-    font-size: 300%;
+    font-size: 250%;
     color: aliceblue;
     position: absolute;
     top: 50%;
